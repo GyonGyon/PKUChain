@@ -2,3 +2,6 @@ node_modules
 build
 yarn.lock
 temp
+.DS_Store
+.idea
+yarn-error.log

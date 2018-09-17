@@ -1,0 +1,8 @@
+.DS_Store
+.tern-port
+.vscode
+node_modules
+build
+yarn-error.log
+truffle-appchain.private.js
+contracts

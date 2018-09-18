@@ -3,9 +3,9 @@ const fs = require('fs')
 const path = require('path')
 
 module.exports = function(deployer) {
-  deployer.deploy(DragonBall, { quota: 9999999 }).then((contract) => {
-    let dirpath = path.resolve(process.cwd(), '../dragonball/src/contracts')
-    const fpath = path.resolve(dirpath, 'dragonballCompiled.js')
+  deployer.deploy(BitMonkey, { quota: 9999999 }).then((contract) => {
+    let dirpath = path.resolve(process.cwd(), '../src/contracts')
+    const fpath = path.resolve(dirpath, 'bitmonkeyCompiled.js')
     let f
     try {
       f = fs.openSync(fpath, 'w+')

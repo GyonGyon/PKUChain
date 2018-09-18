@@ -1,14 +1,13 @@
 import React from 'react'
 
 import Modal from 'react-modal';
-import {simpleStoreContract} from '../../simpleStore'
+import {simpleStoreContract} from '../../contracts/bitmonkey'
 
 // import {transaction, simpleStoreContract} from '../../simpleStore'
 
-import nervos from '../../nervos'
 
 import wallet from '../../public/images/wallet.png'
-import walletModalStyle  from '../../modalStyle'
+import walletModalStyle  from '../../config/modalStyle'
 
 
 require('./wallet.css')

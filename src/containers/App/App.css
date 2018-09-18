@@ -53,3 +53,29 @@ body {
     /*-webkit-animation: tad 0.5s infinite ease both;*/
     /*-moz-animation: tad 0.5s infinite ease both;*/
 /*}*/
+
+body {
+    /* background: #FFF; */
+    background: #F6F5F5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.warning {
+    color: #fe792b;
+}

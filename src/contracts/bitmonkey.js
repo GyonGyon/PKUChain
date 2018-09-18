@@ -1,5 +1,5 @@
 import { abi, address } from './bitmonkeyCompiled'
-import nervos, {transaction} from '../config/nervos'
+import nervos, { transaction } from '../config/nervos'
 
 const bitmonkeyContract = new nervos.appchain.Contract(abi, address)
 

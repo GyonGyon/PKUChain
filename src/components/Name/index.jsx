@@ -1,14 +1,13 @@
 import React from 'react'
 
 import Modal from 'react-modal';
-import {simpleStoreContract} from '../../simpleStore'
+import {simpleStoreContract} from '../../contracts/bitmonkey'
 
 // import {transaction, simpleStoreContract} from '../../simpleStore'
 
-import nervos from '../../nervos'
 
 
-import nameModalStyle  from '../../modalStyle'
+import nameModalStyle  from '../../config/modalStyle'
 const from = '9b408a683b284fd3dae967bfe50528b0983c4865'
 
 require('./name.css')

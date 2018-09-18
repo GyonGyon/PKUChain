@@ -1,38 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './containers/App'
+import registerServiceWorker from './utils/registerServiceWorker'
+import Modal from 'react-modal'
 
-import Modal from 'react-modal';
+const main = () => {
+  const appRoot = document.getElementById('app-root')
+  Modal.setAppElement(appRoot)
+  ReactDOM.render(<App />, appRoot)
+  registerServiceWorker()
+}
 
-const appRoot = document.getElementById('app-root');
-// const modalRoot = document.getElementById('modal-root');
-
-// class Modal extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.el = document.createElement('div');
-//   }
-
-//   componentDidMount() {
-//     modalRoot.appendChild(this.el);
-//   }
-
-//   componentWillUnmount() {
-//     modalRoot.removeChild(this.el);
-//   }
-
-//   render() {
-//     return ReactDOM.createPortal(
-//       this.props.children,
-//       this.el,
-//     );
-//   }
-// }
-
-// export default Modal
-Modal.setAppElement(appRoot)
-ReactDOM.render(<App/>, appRoot);
-
-registerServiceWorker();
+main()

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-import marketModalStyle  from '../../modalStyle'
+import marketModalStyle  from '../../config/modalStyle'
 import pic from '../../public/images/pic.jpg'
 import market_bg from '../../public/images/market-bg.png'
 import market_pricebar from '../../public/images/market-priceban.png'
@@ -14,7 +14,7 @@ import goods4 from '../../public/images/goods4.png'
 import market_confirm from '../../public/images/market-confirm.png'
 import market_pocket from '../../public/images/market-pocket.png'
 import Modal from 'react-modal';
-import {simpleStoreContract} from '../../simpleStore'
+import {simpleStoreContract} from '../../contracts/bitmonkey'
 
 
 require('./market.css')

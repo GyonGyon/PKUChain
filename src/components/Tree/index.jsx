@@ -1,7 +1,7 @@
 import React from 'react'
 import tree_hasFruit from '../../public/images/tree_hasfruit.png'
 import tree_noFruit from '../../public/images/tree_nofruit.png'
-import {simpleStoreContract} from '../../simpleStore'
+import {simpleStoreContract} from '../../contracts/bitmonkey'
 
 require('./tree.css')
 

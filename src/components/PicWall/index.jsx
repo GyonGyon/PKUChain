@@ -2,11 +2,10 @@ import React from 'react'
 import pic from '../../public/images/pic.jpg'
 import pic_wall from '../../public/images/pic-wall-bg.png'
 import {Link} from 'react-router-dom'
-import {simpleStoreContract} from '../../simpleStore'
+import {simpleStoreContract} from '../../contracts/bitmonkey'
 
-import modalStyle  from '../../modalStyle'
+import modalStyle  from '../../config/modalStyle'
 
-import nervos from '../../nervos'
 
 import Modal from 'react-modal';
 import axios from "axios";
